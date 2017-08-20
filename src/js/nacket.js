@@ -8,10 +8,7 @@
 	}
 
 	nacket.httpStart = function() {
-		$.ajaxSetup({
-			cache: false,
-			crossDomain: true
-		});
+		$.ajaxSetup({ cache: false, crossDomain: true });
 	}
 
 	nacket.just = function() {
